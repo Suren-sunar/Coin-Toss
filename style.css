@@ -1,0 +1,49 @@
+*{
+    background-color:white;
+    
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+img{
+    position:absolute;
+   height: 250px;
+   transform: rotateX('180deg');
+}
+.image{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 175px;
+    
+    
+}
+
+.Coin{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 280px;
+    
+   
+
+}
+.spin{
+    animation: spin .10s infinite linear;
+}
+
+@keyframes spin{
+    0%{
+
+    }
+    100%{
+        transform: rotateX(180deg);
+        /* border: 1px solid red; */
+    }
+}
